@@ -1,0 +1,872 @@
+WARC/1.0
+WARC-Type: warcinfo
+Content-Type: application/warc-fields
+WARC-Date: 2016-05-06T06:18:05Z
+WARC-Record-ID: <urn:uuid:c9688afb-39a0-48d6-bd59-90af188be3d9>
+WARC-Filename: San_NSIDC.warc
+WARC-Block-Digest: sha1:JNNORKKD2KKGXDZFGYKTGNEXWBNFMJHU
+Content-Length: 278
+
+software: Wget/1.15 (linux-gnu)
+format: WARC File Format 1.0
+conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+robots: classic
+wget-arguments: "http://nsidc.org/data/ELOKA002/versions/1/print/" "--warc-file=San_NSIDC" "--no-warc-compression" 
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Target-URI: http://nsidc.org/data/ELOKA002/versions/1/print/
+Content-Type: application/http;msgtype=request
+WARC-Date: 2016-05-06T06:18:05Z
+WARC-Record-ID: <urn:uuid:977b9e9f-076f-441e-8892-36ef6c8b9a66>
+WARC-IP-Address: 128.138.135.43
+WARC-Warcinfo-ID: <urn:uuid:c9688afb-39a0-48d6-bd59-90af188be3d9>
+WARC-Block-Digest: sha1:CQHWIVABUCI6OMQZJWCAQW3I522DSN7R
+Content-Length: 138
+
+GET /data/ELOKA002/versions/1/print/ HTTP/1.1
+User-Agent: Wget/1.15 (linux-gnu)
+Accept: */*
+Host: nsidc.org
+Connection: Keep-Alive
+
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:a9ca316e-a30a-468c-80c6-8fe4fe717c3b>
+WARC-Warcinfo-ID: <urn:uuid:c9688afb-39a0-48d6-bd59-90af188be3d9>
+WARC-Concurrent-To: <urn:uuid:977b9e9f-076f-441e-8892-36ef6c8b9a66>
+WARC-Target-URI: http://nsidc.org/data/ELOKA002/versions/1/print/
+WARC-Date: 2016-05-06T06:18:05Z
+WARC-IP-Address: 128.138.135.43
+WARC-Block-Digest: sha1:RPRLD4NZLBHKAL3YODUJW3UFBWU4XOZD
+WARC-Payload-Digest: sha1:HAGIYDDG3TGWEMN4ZTPZSZFMX7VSN76Q
+Content-Type: application/http;msgtype=response
+Content-Length: 41699
+
+HTTP/1.1 200 OK
+Date: Fri, 06 May 2016 06:18:06 GMT
+Server: Apache
+X-Drupal-Cache: MISS
+X-Content-Type-Options: nosniff
+Content-Language: en
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <http://nsidc.org/data/ELOKA002/versions/1/print>; rel="canonical",<http://nsidc.org/data/ELOKA002/versions/1/print>; rel="shortlink"
+Cache-Control: public, max-age=900
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Content-Type: text/html; charset=utf-8
+Keep-Alive: timeout=3, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+
+1458
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/sites/all/themes/nsidc_corporateclean/apple-touch-icon-144x144.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
+<link rel="shortcut icon" href="http://nsidc.org/sites/nsidc.org/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="/sites/all/themes/nsidc_corporateclean/apple-touch-icon.png" rel="apple-touch-icon-precomposed" />
+<link href="/sites/all/themes/nsidc_corporateclean/apple-touch-icon-57x57.png" rel="apple-touch-icon-precomposed" sizes="57x57" />
+<link href="/sites/all/themes/nsidc_corporateclean/apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="/sites/all/themes/nsidc_corporateclean/apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://nsidc.org/data/ELOKA002/versions/1/print" />
+<link rel="shortlink" href="http://nsidc.org/data/ELOKA002/versions/1/print" />
+  <title>| National Snow and Ice Data Center</title> 
+  	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
+    <link href="/css/nsidc-header-2014.css" rel="stylesheet" type="text/css" media="all">
+  <link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_7CYF9En6DNp6AojfSKnT8USKR3GvzPwznmTqLTKT9VM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css__LeQxW73LSYscb1O__H6f-j_jdAzhZBaesGL19KEB6U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_NttinGLx3Mu9y2CASzthVrw5MgI_t9-peZIsUyyIhlg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_HhA9XAeFhHm1yjLKTR90IudcDrNbGJ4THj-T8Ozn3q8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_i4N9OgeVatRcg9IYZ37HCdeewAj3h6GplywLSGq_2-g.css" media="all" />
+
+<!--[if (lte IE 8)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/all/themes/nsidc_corporateclean/css/basic-layout.css?o6kbdh" media="all" />
+<![endif]-->
+
+<!--[if (lte IE 8)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/all/themes/nsidc_corporateclean/css/ie.css?o6kbdh" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_7CWJUzHuA1nLijEZr6eLaZR92251-OeL1Jp5ltWQKsI.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_WOUPu8u3IFjYYwhqFWbARRdDLu8zpL0Iq4Xgd0Bk294.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_T10QzK6uG4AIRuJeho9r74tI-QIMWXA4xCnG9mmOYWU.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_Lc98MCD6F01iN3BgdaDqGHqDcWX9MZmzmfqyEfWObJk.css" media="screen and (min-width: 1100px)" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_0UUUshu887pM6rfdIqG07tR3sfWDMTvRQ-Apsz0QYb0.css" media="screen and (min-width: 980px) and (max-width: 1100px)" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_KlCXulmJN3ReZriLWVxlKBkhCr_cCndEP5NJ5hHb9KQ.css" media="screen and (min-width: 760px) and (max-width: 980px)" />
+<link type="text/css" rel="stylesheet" href="http://nsidc.org/sites/nsidc.org/files/css/css_9h1cu-GrDaTSe-zi3G5q6Ak3anHgxjUfiNs9DOzYbyc.css" media="screen and (max-width: 760px)" />
+    <!-- files needed for jquery fancybox plugin that delivers popup modal functionality on glossary terms throughout the site -->
+	<link href="/scripts/jquery/plugins/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />  
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://nsidc.org/sites/nsidc.org/files/js/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
+<script type="text/javascript"
+ba8
+ src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://nsidc.org/sites/nsidc.org/files/js/js_TGt4Bz2WQNO2l8-kQRpmF_J7K3WB-qqhpTEDuzSnHec.js"></script>
+<script type="text/javascript" src="http://nsidc.org/sites/nsidc.org/files/js/js_RMycEigC7-38ELn6RV2MjubqdcIE56gdHNRrDy1ya1o.js"></script>
+<script type="text/javascript" src="http://nsidc.org/sites/nsidc.org/files/js/js_4xmh33HvKiHuD_Z_g6aJQ1cybQut-enfKOnbTLSlqjQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nsidc_corporateclean","theme_token":"8ZKxX1zDDhiCxHqzO2n6H8U14pOe4GaslEQm-zqtHKw","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.3\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/themes\/nsidc_corporateclean\/js\/print-button.js":1,"sites\/all\/themes\/nsidc_corporateclean\/js\/mobile-menu.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/caption_filter\/caption-filter.css":1,"sites\/all\/modules\/addtoany\/addtoany.css":1,"sites\/all\/themes\/corporateclean\/css\/960.css":1,"sites\/all\/themes\/corporateclean\/css\/720.css":1,"sites\/all\/themes\/corporateclean\/css\/mobile.css":1,"sites\/all\/themes\/corporateclean\/style.css":1,"sites\/all\/themes\/corporateclean\/color\/colors.css":1,"sites\/all\/themes\/nsidc_corporateclean\/section_library\/guide-doc.css":1,"sites\/all\/themes\/nsidc_corporateclean\/section_library\/data-landing-page.css":1,"sites\/all\/themes\/nsidc_corporateclean\/css\/basic-layout.css":1,"sites\/all\/themes\/nsidc_corporateclean\/css\/ie.css":1,"sites\/all\/themes\/nsidc_corporateclean\/style.css":1,"sites\/all\/themes\/nsidc_corporateclean\/css\/print.css":1,"sites\/all\/themes\/nsidc_corporateclean\/color\/colors.css":1,"sites\/all\/themes\/nsidc_corporateclean\/css\/1100.css":1,"sites\/all\/themes\/nsidc_corporateclean\/css\/960.css":1,"sites\/all\/themes\/nsidc_corporateclean\/css\/720.css":1,"sites\/all\/themes\/nsidc_corporateclean\/css\/mobile.css":1}},"better_exposed_filters":{"views":{"data_landing_page":{"displays":{"block_1":{"filters":[]}}},"data_set_tabs":{"displays":{"block":{"filters":[]},"block_2":{"filters":[]},"block
+302
+_4":{"filters":[]},"block_1":{"filters":[]},"block_6":{"filters":[]},"block_3":{"filters":[]}}},"guide_doc_print_view":{"displays":{"page":{"filters":[]}}}}}});
+//--><!]]>
+</script>
+  	<script type="application/javascript" src="/scripts/global/functionOnload.js"></script>
+	<script type="application/javascript" src="/scripts/nsidc-nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.selectboxit/3.8.0/jquery.selectBoxIt.min.js"></script>
+    <!--build Service Interruption Notice window -->
+	<script type="application/javascript" src="/scripts/global/buildModalDiv.js"></script>
+    <!-- script to rotate the background image onload -->
+	<script type="application/javascript" src="/scripts/global/jquery-background.js"></script>
+    
+22
+
+<!-- start analytics.ssi -->
+
+
+32e
+
+
+<!-- start NSIDC web analytics scripts -->
+
+<!-- BEGIN: NetInsight Page Tag -->   
+<!-- Copyright 2004 Sane Solutions, LLC.  All rights reserved. -->
+<script type="text/javascript" src="/scripts/ntpagetag.js"></script>
+
+<!-- END: NetInsight Page Tag -->
+<!-- begin scripts for google analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-192409-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- end scripts for google analytics -->
+<!-- end NSIDC web analytics scripts -->
+
+
+1e
+
+
+<!-- end analytics.ssi -->
+478
+
+	<!-- google search script -->
+	<script type="application/javascript" src="https://www.google.com/cse/brand?form=cref"></script>
+
+	<script src="/scripts/jquery/plugins/jquery.fancybox.js" type="application/javascript"></script>
+	<script>
+	jQuery(document).ready(function($) {
+    if (window.name !== "fancybox-glossary") { // do not load the fancybox script calls popups as it makes loading term within term hokie 
+		$.getScript( "/scripts/jquery/plugins/glossary-fancybox-options.js" )
+			.done(function( script, textStatus ) {
+	   		 console.log( textStatus );
+  			})
+		}
+	});
+    </script>
+    
+    
+</head>
+<body class="html not-front not-logged-in no-sidebars page-data page-data-eloka002 page-data-eloka002-versions page-data-eloka002-versions- page-data-eloka002-versions-1 page-data-eloka002-versions-print data-landing print-view" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div id="wrapper">
+          <div class="region region-header">
+    <div id="block-block-2" class="block block-block">
+
+<!-- begin nsidc.ssi -->
+1052
+<!-- BEGIN nsidc.ssi -->
+<div id="header">
+<div id="header-inside-left"><div id="logo"><h1><a href="/">National Snow and Ice Data Center</a></h1></div></div>
+<div id="nsidc-menu">
+<ul class="nsidc-nav">
+<li class="home main"><a href="/" id="home">Home</a></li>
+<li class="main"><a href="/data" id="data-nav">Data</a>
+	<div class="subnav data-menu">
+    <div class="column-1">
+    <p class="subhead">Data Sets for Research</p>
+    <ul>
+	  <li><a href="/data/search/#keywords=brightness+temperature">Brightness Temperature</a></li>
+      <li><a href="/data/search/#keywords=glaciers">Glaciers</a></li>
+      <li><a href="/data/search/#keywords=ice+sheets">Ice Sheets</a></li>
+      <li><a href="/data/search/#keywords=permafrost">Permafrost</a></li>
+      <li><a href="/data/search/#keywords=sea+ice">Sea Ice</a></li>
+      <li><a href="/data/search/#keywords=soil+moisture">Soil Moisture</a></li>
+      <li><a href="/data/search/#keywords=snow">Snow</a></li>
+      <li><a href="/data/search/">...search for more</a></li>
+	</ul>
+    </div>
+    <div class="column-2">
+    <p class="subhead">Scientific Data Search</p>
+    <form action="#" name="data-search" id="data-search">
+    <input type="text" value="Enter term(s)" onblur="if(this.value=='') this.value='Enter term(s)';" onfocus="if(this.value=='Enter term(s)') this.value='';" id="keywords2" name="keywords" class="keywords" autocomplete="off">
+    <input class="submit-btn" type="submit" name="submit" value="GO" alt="Submit" />
+    </form>
+    <p class="subhead">Support for Researchers</p>
+    <ul>
+    <li><a href="/data/tools/">Analysis & Imaging Tools</a></li>
+    <li><a href="/the-drift/data-update/">Data Announcements</a></li>
+    <li><a href="/data/submit.html">Submit Your Data</a></li>
+	<li><a href="/about/policies">Data Policies</a></li>
+	<li><a href="/rocs">Library & Archives</a></li>
+    <li><a href="https://nsidc.zendesk.com/account/dropboxes/20123172" onclick="script: Zenbox.show(); return false;">User Support</a></li>
+    </ul>
+    </div>
+    <div class="column-3">
+    <p class="subhead">Data for Everyone</p>
+    <ul>
+    <li><a href="/arcticseaicenews">Arctic Sea Ice News & Analysis</a></li>
+    <li><a href="/cgi-bin/glacier_photos/glacier_photo_search.pl">Glacier Photograph Collection</a></li>
+    <li><a href="/greenland-today/">Greenland Ice Sheet Today</a></li>
+    <li><a href="/data/masie/">MASIE (Daily sea ice extent)</a></li>
+    <li><a href="/soac">Satellite Observations of Arctic Change</a></li>
+    <li><a href="/data/seaice_index/">Sea Ice Index</a></li>
+    <li><a href="/data/google_earth/">Virtual Globes: Google Earth </a></li>
+    </ul>
+    </div>
+    <div class="column-4">
+    <p class="subhead">Sponsored Programs</p>
+    <ul>
+    <li><a href="/agdc/">Antarctic Glaciological Data Center</a></li>
+    <li><a href="http://eloka-arctic.org/">Exchange for Local Observations and Knowledge of the Arctic (ELOKA)</a></li>
+    <li><a href="/noaa/">NOAA at NSIDC</a></li>
+    <li><a href="/daac">NASA Distributed Active Archive Center at NSIDC (NSIDC DAAC)</a></li>
+    </ul>
+    </div>
+    <div class="menu-see-also"><p>Looking for facts and information? See <a href="/cryosphere/">About the Cryosphere.</a></p></div>
+    </div>
+</li>
+<li class="main"><a href="/research" id="research-nav">Research</a>
+  <div class="subnav research-menu">
+  <ul>
+    <li><a href="/research/scientists.html"><img src="/sites/nsidc.org/files/images/about/researcher-100.jpg" alt="" />Scientists</a></li>
+    <li><a href="/research/projects.html"><img src="/sites/nsidc.org/files/images/about/asina-100.jpg" alt="" />Research Grants</a></li>
+    <li><a href="/research/publications.html"><img src="/sites/nsidc.org/files/images/about/publications-100.jpg" alt="" />Scientific Publications</a></li>
+	<li><a href="/research/informatics"><img src="/sites/nsidc.org/files/images/about/informatics-100.jpg" alt="" />Informatics Research</a></li>
+    <li><a href="/news/press/expeditions.html"><img src="/sites/nsidc.org/files/images/about/research-group-100.jpg" alt="" />NSIDC Scientific Expeditions</a></li>
+    </ul>
+    <div cla
+12ac
+ss="column-4">
+    <p class="subhead"><em>On Thin Ice:</em><br />Expedition to a Crumbling Ice Shelf</p>
+    <p><img src="/sites/nsidc.org/files/images/cryosphere/education-resources/0508_cold_thumb.jpg" />Scientists blog from Antarctica and provide a glimpse of what it's like to do research in the field. <a href="http://iceshelf.wordpress.com/">Read their blog ...</a></p>
+    </div>
+    </div>
+</li>
+<li class="main"><a href="/news" id="news-nav">News</a>
+	<div class="subnav news-menu">
+    <div class="column-1">
+    <p class="subhead">For the Media</p>
+    <ul>
+		<li><a href="/news/newsroom">Newsroom: For the Media</a></li>
+        </ul>
+     <p class="subhead">For Data Users</p>
+     <ul>
+     <li><a href="/the-drift/data-update/">Data Announcements</a></li>
+     <li><a href="/the-drift">The Drift</a></li>
+     </ul>
+        </div>
+     <div class="column-2">
+     <p class="subhead">Current Conditions</p>
+     <ul>
+     <li><a href="/arcticseaicenews/">Arctic Sea Ice News &amp; Analysis</a></li>
+     <li><a href="/greenland-today">Greenland Today</a></li>
+     <li><a href="/soac">Satellite Observations of Arctic Change</a></li>
+     </ul>
+     </div>
+     <div class="column-3">
+     		<p class="subhead"><a href="/news/inthenews/">NSIDC In the News</a></p>
+             <p class="subhead"><a href="/news/events/">Events</a></p>
+            <p class="subhead"><a href="/monthlyhighlights/">NSIDC Monthly Highlights</a></p>
+             <div class="social-links"><a href="http://www.facebook.com/NSIDC"><img src="/sites/nsidc.org/files/images/news/facebook-25px.png" class="img-no-border-left" alt="NSIDC Facebook"></a><a href="https://twitter.com/NSIDC"><img src="/sites/nsidc.org/files/images/news/twitter-25px.png" class="img-no-border-left" alt="NSIDC Twitter"></a><a href="/news/feed"><img src="/sites/nsidc.org/files/images/news/rss-25px.png" class="img-no-border-left" alt="NSIDC RSS News Feed"></a></div>    
+     </div>
+	<div class="column-4">
+    <p class="subhead"><em>Icelights:</em> Answers to your burning questions about ice and climate</p>
+    <p><img src="/sites/nsidc.org/files/images/news/icon-icelights.jpg" alt="" />What's hot in the news around climate and sea ice and what are scientists talking about now?  <a href="/icelights">Read more...</a></p>
+    </div>       
+    </div>
+</li>
+<li class="main"><a href="/about" id="about-nav">About</a>
+  <div class="subnav about-menu">
+    <div class="column-1">
+    <p class="subhead"><a href="/about/overview">About NSIDC</a></p>
+  <ul>
+    <li><a href="/about/people.html">NSIDC People</a></li>
+	<li><a href="/rocs">Library & Archives</a></li>
+    <li><a href="/about/sponsors.html">Our Sponsors</a></li>
+    <li><a href="/about/jobs/index.html">Jobs</a></li>
+    <li><a href="/monthlyhighlights/">NSIDC Monthly Highlights</a></li>
+    <li><a href="/about/use_copyright.html">Use &amp; Copyright</a></li>
+    <li><a href="/about/contact.html">Contact Us</a></li>
+    <li><a href="/about/support.html">Support NSIDC</a></li>
+    <li><a href="/about/green-data-center/">NSIDC's Green Data Center</a></li>
+    </ul>
+    </div>
+    <div class="column-2">
+    <p class="subhead"><a href="/cryosphere">About the Cryosphere</a></p>
+    <ul class="column-2">
+	<li><a href="/cryosphere/quickfacts/">Quick Facts</a></li>
+	<li><a href="/cryosphere/allaboutcryosphere.html">All About The Cryosphere</a></li>
+    <li><a href="/cryosphere/glaciers/">All About Glaciers</a></li>
+	<li><a href="/cryosphere/snow/">All About Snow</a></li>
+	<li><a href="/cryosphere/frozenground/index.html">All About Frozen Ground</a></li>
+	<li><a href="/cryosphere/seaice/">All About Sea Ice</a></li>
+	<li><a href="/cryosphere/arctic-meteorology/">All About Arctic Climatology & Meteorology</a></li>
+	</ul>
+    <ul class="column-3">
+    <li><a href="/cryosphere/climate-change.html">Snow, Ice and Climate Change</a></li>
+	<li><a href="/cryosphere/study-cryosphere.html">Studying the Cryosphere</a></li>
+	<li><a href="/cryosphere/photo-gallery/intro">Photo Gallery</a></li>
+	<li><a href="/cryosphere/education-resources/">Educational Resources</a></li>
+	<li><a href="/cryosphere/glossary">Cryosphere Glossary</a></li>
+	</ul>
+    </div>
+    <div class="column-4">
+    <p class="subhead">What is the Cryosphere?</p>
+    <p><img src="/sites/nsidc.org/files/images/cryosphere/education-resources/0508_cold_thumb.jpg" alt="" />When scientists talk about the cryosphere, they mean the places on Earth where water is in its solid form, frozen into ice or snow. <a href="/cryosphere/allaboutcryosphere.html">Read more ...</a></p>
+    </div>
+    </div>
+</li>
+</ul>
+</div><!-- end menu -->
+  <div id="nsidc-search">
+<!-- service announcement include -->
+
+9e6
+<div id="serviceAnnouncement">
+
+<!--BEGIN close button-->
+<a id="closeButton" href="#" class="modalTrigger">
+<img class="btn_close" alt="Close" title="Close Window" src="/images/close_pop.png" />
+</a>
+<!--END close button-->
+
+<!--INSTRUCTIONS ON HOW TO USE THIS SSI
+
+You DO NOT need to comment out the Service Interruption Message Content. Only comment out the DIV ID Service Message located at the bottom of this page, which is the trigger that creates the Service Interruption Red Box that displays at the top of each Web page.-->
+
+	
+<!--BEGIN Service Interruption Message Content-->
+
+<h1>Service Interruption</h1>
+
+<p>On Friday, 01 April 2016 from 9:00 a.m. to 3:00 p.m. (USA Mountain Time), FTP and some applications on our web site may be unavailable due to system maintenance. We apologize for any inconvenience this may cause you.</p>
+
+
+
+<!--END Service Interruption Message Content-->
+<!--Test comment-->
+
+<!--Begin Examples Notices
+
+<p>From 4:30 p.m. Wednesday, June 04 until noon Friday, June 06 (USA Mountain Time), our Web site will be unavailable due to system maintenance. We apologize for any inconvenience this may cause you.</p>
+
+<p>The NSIDC Web site and data services are currently having intermittent problems and may be unavailable. We are working to restore these services as soon as possible and apologize for any inconvenience this may cause. Please <a href="mailto:nsidc@nsidc.org?Subject=Inquiry about unavailable FTP server">contact NSIDC User Services</a> for assistance.</p> 
+
+
+<p>On Thursday, 12 June 2014 from 3:00 p.m. to 4:00 p.m. (USA Mountain Time), our Web services will be unavailable due to NSIDC server maintenance. We apologize for any inconvenience this may cause you.</p> 
+
+<p>On Friday, 06 February 2015 from 8:00 a.m. to 5:00 p.m. (USA Mountain Time), we will be performing scheduled maintenance, which may cause temporary disruptions to our Web site, applications, and FTP. We apologize for any inconvenience this may cause you.</p>
+
+<p>On Friday, 02 October 2015 from 8:00 a.m. to 5:00 p.m. (USA Mountain Time), we will be performing scheduled maintenance, which may cause temporary disruptions to our Web site, applications, and FTP. We apologize for any inconvenience this may cause you.</p>
+
+End Example Notices-->
+
+</div>
+
+
+<div id="service-message">
+ 
+<!--COMMENT OUT JUST THE FOLLOWING LINE-->
+
+
+<!--<p class="noticeButton"><a href="#" class="modalTrigger">Outage Notice</a></p>-->
+
+
+<!--COMMENT OUT JUST THE LINE ABOVE-->
+
+</div>
+330
+
+<!-- end service announcement include -->
+<div id="search-box"><form action="#" id="search-nsidc"><input type="text" size="40" name="keywords" id="keywords" alt="search" value="SEARCH" onblur="if(this.value=='') this.value='SEARCH';" onfocus="if(this.value=='SEARCH') this.value='';" class="search" autocomplete="off" /><input type="hidden" name="cref" value="//nsidc.org/google-search.xml" /><input name="cof" value="FORID:11" type="hidden"><div id="search-select"><select name="search_type" id="search_type">
+        <option value="web">Web pages</option>
+        <option value="data">Data Sets</option>
+        </select></div><input class="submit-btn" type="submit" name="submit" src="/images/search-submit-btn.png" alt="Submit" /></form></div>
+  </div><!-- nsidc-search -->
+</div>
+<!-- END nsidc.ssi -->
+bc0
+<!-- end nsidc.ssi include --><!-- #banner -->
+</div>  </div>
+
+<div id="banner">
+
+	
+</div><!-- EOF: #banner -->
+
+
+<!-- #content -->
+<div id="content">
+	<!-- #content-inside -->
+    <div id="content-inside" class="container_16 clearfix">
+    
+                
+                <div id="main" class="grid_16">    
+                    
+                        
+                   
+                 
+                        
+                        
+			                                    
+                        
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+<div class="view view-guide-doc-print-view view-id-guide_doc_print_view view-display-id-page print-view view-dom-id-b543bf54dbef5206dd4a4ae0ef314f52">
+            <div class="view-header">
+      <ul class="print-button"><li class="print"><a href="#print">Print this page</a></li></ul><div class="view view-data-landing-page view-id-data_landing_page view-display-id-block_1 view-dom-id-edf570d6ce1859fcc4b6f553b7f1f149">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-dataset-logo">        <div class="field-content data-center-logo"><div class="item-list"><ul><li class="first last"><p><img alt="Data center logo" id="data-center-logo" src="/sites/nsidc.org/files/images/data-landing/eloka.png" /></p>
+</li>
+</ul></div></div>  </div>  
+  <div class="views-field views-field-field-dataset-id">    <span class="views-label views-label-field-dataset-id">Data Set ID: </span>    <div class="field-content">ELOKA002</div>  </div>  
+  <div class="views-field views-field-title">        <h1 class="field-content">Sea Ice in the Belcher Islands, Nunavut, Canada, Version 1</h1>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>This data set contains interviews of three hunters from Sanikiliaq, Belcher Islands, in the territory of Nunavut, Canada.  The hunters describe their observations of sea ice conditions around the Belcher Islands gathered from their many hunting expeditions.  The local and traditional knowledge (LTK) gathered from these interviews reveals that the ice is changing and becoming more dangerous and less predictable than it once was.</p>
+<p>In addition to the three video interviews, the hunters drew important ice features and changes on maps which are included as part of the data set.  Photographs of ice conditions at specific places on the maps are available.  Two of the three interviews are in English; the third is in Inuktitut and English.</p>
+<p>Data are available via the Product Web Site as edited video files, maps, and photographs.  Full video interviews, maps, and photographs are on ftp as a compressed file via the Access Data link.</p>
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><h2>Overview</h2><div class="view view-data-set-
+c70
+tabs view-id-data_set_tabs view-display-id-block data-overview-table view-dom-id-1498405c6aadb1ed858d0be0bc3c89ac">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-table cols-11">
+  
+    <tbody>
+          <tr class="views-field views-field-field-dataset-geo-coordinates views-row views-row-1 views-row-odd views-row-first">
+                <th class="views-field views-field-field-dataset-geo-coordinates">
+          Spatial Coverage:         </th>
+                          <td class="views-field views-field-field-dataset-geo-coordinates views-column-odd views-column-first views-column-last">
+            <div class="item-list"><ul><li class="first last"><p>N: 56.93479, S: 55.56779, E: -78.78479, W: -80.22399</p>
+</li>
+</ul></div>          </td>
+              </tr>
+          <tr class="views-field views-field-field-spatial-resolution-lat-lon views-row views-row-2 views-row-even">
+                <th class="views-field views-field-field-spatial-resolution-lat-lon">
+          Spatial Resolution:         </th>
+                          <td class="views-field views-field-field-spatial-resolution-lat-lon views-column-odd views-column-first views-column-last">
+            Not Specified          </td>
+              </tr>
+          <tr class="views-field views-field-views-conditional-1 temporal-update-merge views-row views-row-3 views-row-odd">
+                <th class="views-field views-field-views-conditional-1">
+          Temporal Coverage:         </th>
+                          <td class="views-field views-field-views-conditional-1 views-column-odd views-column-first views-column-last">
+            <div class="item-list"><ul><li class="first last"><div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="1993-01-01T00:00:00-07:00">1 January 1993</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2009-04-01T00:00:00-06:00">1 April 2009</span></div></li>
+</ul></div>           </td>
+              </tr>
+          <tr class="views-field views-field-field-dataset-temporal-resolutio views-row views-row-4 views-row-even">
+                <th class="views-field views-field-field-dataset-temporal-resolutio">
+          Temporal Resolution:         </th>
+                          <td class="views-field views-field-field-dataset-temporal-resolutio views-column-odd views-column-first views-column-last">
+            Not specified          </td>
+              </tr>
+          <tr class="views-field views-field-field-dataset-parameter-gcmd views-row views-row-5 views-row-odd">
+                <th class="views-field views-field-field-dataset-parameter-gcmd">
+          Parameter(s):         </th>
+                          <td class="views-field views-field-field-dataset-parameter-gcmd views-column-odd views-column-first views-column-last">
+            <div class="item-list"><ul><li class="first">Atmospheric Temperature &gt; Air Temperature</li>
+<li>Atmospheric Winds</li>
+<li>Animals/Vertebrates &gt; Birds &gt; Ducks/Geese/Swans</li>
+<li>Animals/Vertebrates &gt; Birds &gt; Ducks/Geese/Swans &gt; Eider Ducks</li>
+<li>Coastal Proce
+2000
+sses &gt; Erosion</li>
+<li>Snow/Ice &gt; Freeze/Thaw</li>
+<li>Sea Ice &gt; Ice Deformation</li>
+<li>Sea Ice &gt; Ice Depth/Thickness</li>
+<li class="last">Sea Ice &gt; Ice Edges</li>
+</ul></div>          </td>
+              </tr>
+          <tr class="views-field views-field-field-dataset-platform views-row views-row-6 views-row-even">
+                <th class="views-field views-field-field-dataset-platform">
+          Platform(s)        </th>
+                          <td class="views-field views-field-field-dataset-platform views-column-odd views-column-first views-column-last">
+            GROUND-BASED OBSERVATIONS          </td>
+              </tr>
+          <tr class="views-field views-field-field-dataset-sensor views-row views-row-7 views-row-odd">
+                <th class="views-field views-field-field-dataset-sensor">
+          Sensor(s):         </th>
+                          <td class="views-field views-field-field-dataset-sensor data-sensors views-column-odd views-column-first views-column-last">
+            <span>CAMERAS, VISUAL OBSERVATIONS</span>          </td>
+              </tr>
+          <tr class="views-field views-field-field-dataset-format views-row views-row-8 views-row-even">
+                <th class="views-field views-field-field-dataset-format">
+          Data Format(s):        </th>
+                          <td class="views-field views-field-field-dataset-format views-column-odd views-column-first views-column-last">
+            <div class="item-list"><ul><li class="first">MPEG</li>
+<li>PDF</li>
+<li>HTML</li>
+<li class="last">JPEG</li>
+</ul></div>          </td>
+              </tr>
+          <tr class="views-field views-field-field-dataset-version views-row views-row-9 views-row-odd">
+                <th class="views-field views-field-field-dataset-version">
+          Version:         </th>
+                          <td class="views-field views-field-field-dataset-version views-column-odd views-column-first views-column-last">
+            V1          </td>
+              </tr>
+          <tr class="views-field views-field-views-conditional views-row views-row-10 views-row-even">
+                <th class="views-field views-field-views-conditional">
+          Data Contributor(s):         </th>
+                          <td class="views-field views-field-views-conditional data-contributors views-column-odd views-column-first views-column-last">
+            Miriam Fleming, Peter Kattuk, Johnassie Ippak, Lucassie Takatak, Lucassie Arragutainaq, Jessie Kasynski, Dinah Kavik          </td>
+              </tr>
+          <tr class="views-field views-field-field-dataset-metadata-link views-row views-row-11 views-row-odd views-row-last">
+                <th class="views-field views-field-field-dataset-metadata-link">
+          Metadata XML:         </th>
+                          <td class="views-field views-field-field-dataset-metadata-link views-column-odd views-column-first views-column-last">
+            <a href="//nsidc.org/data/ELOKA002/versions/1/metadata">View Metadata Record</a>           </td>
+              </tr>
+      </tbody>
+</table>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div><h2>Citing These Data</h2><div class="view view-data-set-tabs view-id-data_set_tabs view-display-id-block_2 view-dom-id-26d4348aef6354d5ea9783606e69dbc3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-dataset-citation-intro">        <div class="field-content"><h3>Data Citation</h3>
+<p>As a condition of using these data, you must cite the use of this data set using the following citation.  For more information, see our <a href="http://nsidc.org/about/use_copyright.html">Use and Copyright</a> Web page.</p>
+</div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content">Fleming, M. <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2010-04-01T00:00:00-06:00">2010</span>. <em>Sea Ice in the Belcher Islands, Nunavut, Canada, Version 1</em>. [Indicate subset used]. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi: <a href="http://dx.doi.org/10.7265/N5G44N7X">http://dx.doi.org/10.7265/N5G44N7X</a>. [Date Accessed].</span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><h2>Documentation</h2>    </div>
+  
+  
+  
+      <div class="view-empty">
+      <div class="view view-data-set-tabs view-id-data_set_tabs view-display-id-block_3 view-dom-id-9a81b1d4728dccccf92d8d4dba8aa253">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-data-set-tabs view-id-data_set_tabs view-display-id-block_6 view-dom-id-72696b99d2baea93b224f0ffde8600f5">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-dataset-documentation-link">        <div class="field-content">There is no documentation available for this data set.</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <h2>See Also</h2><div class="view view-data-set-tabs view-id-data_set_tabs view-display-id-block_4 view-dom-id-6d67820b69121a669bee5f30d6ec4514">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-dataset-see-also">        <div class="field-content">No See Also links are available for this data set.</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><h2>Support</h2><div class="view view-data-set-tabs view-id-data_set_tabs view-display-id-block_1 view-dom-id-086cb9d6e2642c82092203458b1babf1">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><h4>Questions?  Please contact:</h4>
+<p>NSIDC User Services<br>
+Phone: 1 303 492-6199 <br>
+Fax: 1 303 492-2468 <br>
+Email: <a href="mailto:nsidc@nsidc.org">nsidc@nsidc.org</a><br>
+Contact Address:<br>
+National Snow and Ice Data Center<br>
+CIRES, 449 UCB<br>
+University of Colorado<br>
+City: Boulder<br>
+Province or State: CO<br>
+Postal Code: 80309-0449<br>
+Country: USA<p></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+</div>
+</div>  </div>
+            
+                        
+        </div><!-- EOF: #main -->
+        
+          
+
+    </div><!-- EOF: #content-inside -->
+
+</div><!-- EOF: #content -->
+
+<!-- #footer -->    
+<div id="footer">
+	<!-- #footer-inside -->
+    <div id="footer-inside" class="container_16 clearfix">
+    
+          <div class="region region-footer-first">
+    <div id="block-block-1" class="block block-block">
+
+<!-- begin nsidc_footer.ssi --><!-- vvvvvvvvvv SSI BELOW vvvvvvvvvv --><!-- nsidc_footer.ssi -->
+<div class="clearGroup" id="footerNSIDC">
+<div class="footer-column grid_4">
+<h2>Find Data</h2>
+
+<ul><li><a href="/data/data-search.html">Search NSIDC Data</a></li>
+	<li><a href="http://reverb.echo.nasa.gov/reverb/">Reverb (NASA)</a></li>
+	<li><a href="/icebridge/portal/">IceBridge Portal</a></li>
+	<li><a href="/data/data_pool">Data Pool (Direct FTP for select data)</a></li>
+	<li><a href="/data/collections.html">Data Collections List</a></li>
+</ul></div>
+
+<div class="footer-column grid_4">
+<h2>Stay Current</h2>
+
+<ul><li><a href="/arcticseaicenews/">Arctic Sea Ice News and Analysis </a></li>
+	<li><a href="/data/seaice_index/">Sea Ice Index (Passive microwave satellite data)</a></li>
+	<li><a href="/data/masie/index.html">MASIE (Daily sea ice extent, multi-source)</a></li>
+	<li><a href="/greenland-today/">Greenland Today</a></li>
+	<li><a href="/news/newsroom">Newsroom </a></li>
+</ul></div>
+
+<div class="footer-column grid_4">
+<h2>Learn About Snow and Ice</h2>
+
+<ul><li><a href="/icelights/">
+d24
+Icelights: Answers to Your Questions</a></li>
+	<li><a href="/cryosphere/quickfacts/">Cryosphere Quick Facts </a></li>
+	<li><a href="/cryosphere/glaciers/">All About Glaciers</a></li>
+	<li><a href="/cryosphere/snow/">All About Snow </a></li>
+	<li><a href="/cryosphere/seaice/">All About Sea Ice</a></li>
+	<li><a href="/arcticmet/">Arctic Climatology - A Primer </a></li>
+</ul></div>
+
+<div class="footer-column grid_4" id="footer-column-last">
+<h2>Get Help</h2>
+
+<ul><li><a href="https://support.nsidc.org/forums">Knowledge Base</a></li>
+	<li><a href="https://nsidc.zendesk.com/account/dropboxes/20123172" onclick="script: Zenbox.show(); return false;">Ask Us</a></li>
+</ul><h2>Etc.</h2>
+
+<ul><li><a href="/about/use_copyright.html">Use &amp; Copyright </a></li>
+	<li><a href="/about/privacy">Web Policy </a></li>
+	<li><a href="/about/jobs/">Jobs </a></li>
+</ul><div class="social-icon-container"><a href="http://www.facebook.com/NSIDC"><img alt="Facebook" src="/images/social-media/facebook16x16.png" /></a> <a href="https://twitter.com/NSIDC"> <img alt="Twitter" src="/images/social-media/twitter16x16.png" /></a></div>
+</div>
+
+<div id="footer-bottom">
+<div class="grid_9">
+<p><img alt="NSIDC logo" class="floatLeft" height="34" src="/images/logo_nsidc_46x36.svg" style="margin: 3px 8px 0 0;" width="44" /><a href="/">Home</a> | <a href="/about/contact.html">Contact Us</a><br />
+© 2016, <strong>National Snow and Ice Data Center</strong> :: <em>Advancing knowledge of Earth's frozen regions</em></p>
+</div>
+
+<div class="affiliate-logos grid_7"><a href="http://www.icsu-wds.org/" title="ICSU World Data System"><img alt="ICSU World Data System" height="42" src="/images/wds_reverse-79.png" width="79" /></a>    <a href="http://cires.colorado.edu/" title="Cooperative Institute for Research in Environmental Sciences (CIRES)"><img alt="Cooperative Institute for Research in Environmental Sciences (CIRES)" height="34" src="/images/cires_reverse-78.png" width="68" /></a>    <a href="http://www.colorado.edu/" id="cu-logo" title="University of Colorado Boulder"><img alt="University of Colorado Boulder" height="37" src="/images/cu-navyBkg.png" width="173" /></a></div>
+
+<div style="clear: both"></div>
+</div>
+</div>
+<!-- ZENDESK SUPPORT WIDGET --><script type="text/javascript" src="https://assets.zendesk.com/external/zenbox/v2.5/zenbox.js"></script><style media="screen, projection" type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+@import url(//assets.zendesk.com/external/zenbox/v2.5/zenbox.css);
+
+/*--><!]]>*/
+</style><style media="screen, projection" type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+#zenbox_tab {
+	border-radius: 5px;
+}
+#zenbox_tab #feedback_tab_text {
+    font-size: 1em;
+}
+
+/*--><!]]>*/
+</style><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+jQuery(document).ready(function($){
+var pathname = location.pathname; 
+if(pathname !== "/data/polaris/") {
+  if (typeof(Zenbox) !== "undefined") {
+    Zenbox.init({
+      dropboxID:   "20123172",
+      url:         "https://nsidc.zendesk.com",
+      tabID:       "ASK US",
+      tabColor:    "#1A4C79",
+      tabPosition: "Right"
+    });
+  }
+}
+});
+
+//--><!]]>
+</script><!-- ^^^^^^^^^^ SSI ABOVE ^^^^^^^^^^ --><!-- end nsdic_footer.ssi -->
+</div>  </div>
+       
+    </div><!-- EOF: #footer-inside -->
+
+</div><!-- EOF: #footer -->    </div><!-- EOF: wrapper -->
+</body>
+</html>
+
+0
+
+
+
+WARC/1.0
+WARC-Type: metadata
+WARC-Record-ID: <urn:uuid:cdbe8f5d-a542-43d5-9579-34d512bbba8b>
+WARC-Warcinfo-ID: <urn:uuid:c9688afb-39a0-48d6-bd59-90af188be3d9>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/MANIFEST.txt
+WARC-Date: 2016-05-06T06:18:06Z
+WARC-Block-Digest: sha1:LLGTVN43DIIOEDXBR2GRHCSHHY3VJ7D5
+Content-Type: text/plain
+Content-Length: 48
+
+<urn:uuid:c9688afb-39a0-48d6-bd59-90af188be3d9>
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:4c64dd1a-5ea5-4a15-b21a-270322814765>
+WARC-Warcinfo-ID: <urn:uuid:c9688afb-39a0-48d6-bd59-90af188be3d9>
+WARC-Concurrent-To: <urn:uuid:cdbe8f5d-a542-43d5-9579-34d512bbba8b>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget_arguments.txt
+WARC-Date: 2016-05-06T06:18:06Z
+WARC-Block-Digest: sha1:6BFV7M457HDCC6EFEMLM2KV4YYZCD2PY
+Content-Type: text/plain
+Content-Length: 100
+
+"http://nsidc.org/data/ELOKA002/versions/1/print/" "--warc-file=San_NSIDC" "--no-warc-compression" 
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:4b483321-4d16-40fe-8b76-1f8cba1a1469>
+WARC-Warcinfo-ID: <urn:uuid:c9688afb-39a0-48d6-bd59-90af188be3d9>
+WARC-Concurrent-To: <urn:uuid:cdbe8f5d-a542-43d5-9579-34d512bbba8b>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget.log
+WARC-Date: 2016-05-06T06:18:06Z
+WARC-Block-Digest: sha1:KYCO6OXQBTPD27HAJKOVUCAKMN5UG572
+Content-Type: text/plain
+Content-Length: 486
+
+Opening WARC file ‘San_NSIDC.warc’.
+
+--2016-05-06 02:18:05--  http://nsidc.org/data/ELOKA002/versions/1/print/
+Resolving nsidc.org (nsidc.org)... 128.138.135.43
+Connecting to nsidc.org (nsidc.org)|128.138.135.43|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html.2’
+
+     0K .......... .......... .......... ..........             281K=0.1s
+
+2016-05-06 02:18:06 (281 KB/s) - ‘index.html.2’ saved [41040]
+
+
+

@@ -1,0 +1,398 @@
+WARC/1.0
+WARC-Type: warcinfo
+Content-Type: application/warc-fields
+WARC-Date: 2016-05-07T00:20:37Z
+WARC-Record-ID: <urn:uuid:2ce02d99-ab42-43a4-95e4-0b361c056318>
+WARC-Filename: San_hunters.warc
+WARC-Block-Digest: sha1:DUWNKN33RGRR4C74PWKDHVH2DLABN6IG
+Content-Length: 297
+
+software: Wget/1.15 (linux-gnu)
+format: WARC File Format 1.0
+conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+robots: classic
+wget-arguments: "http://eloka-arctic.org/communities/sanikiluaq/hunters/index.html" "--warc-file=San_hunters" "--no-warc-compression" 
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Target-URI: http://eloka-arctic.org/communities/sanikiluaq/hunters/index.html
+Content-Type: application/http;msgtype=request
+WARC-Date: 2016-05-07T00:20:37Z
+WARC-Record-ID: <urn:uuid:bfbc8bac-c63c-4563-9c5c-2faad75ff1d7>
+WARC-IP-Address: 128.138.135.43
+WARC-Warcinfo-ID: <urn:uuid:2ce02d99-ab42-43a4-95e4-0b361c056318>
+WARC-Block-Digest: sha1:HZ25LGDHFMRR3OWDLOEOSBOCM25WC72U
+Content-Length: 155
+
+GET /communities/sanikiluaq/hunters/index.html HTTP/1.1
+User-Agent: Wget/1.15 (linux-gnu)
+Accept: */*
+Host: eloka-arctic.org
+Connection: Keep-Alive
+
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:0da93996-8ceb-4d36-85f3-082353854924>
+WARC-Warcinfo-ID: <urn:uuid:2ce02d99-ab42-43a4-95e4-0b361c056318>
+WARC-Concurrent-To: <urn:uuid:bfbc8bac-c63c-4563-9c5c-2faad75ff1d7>
+WARC-Target-URI: http://eloka-arctic.org/communities/sanikiluaq/hunters/index.html
+WARC-Date: 2016-05-07T00:20:37Z
+WARC-IP-Address: 128.138.135.43
+WARC-Block-Digest: sha1:O3SBCV2CEL6BUE6CDZEYALA6HRSSLDLI
+WARC-Payload-Digest: sha1:KIQOTUBNM42X6Z2AGIICU34JV5EUYTYP
+Content-Type: application/http;msgtype=response
+Content-Length: 20059
+
+HTTP/1.1 200 OK
+Date: Sat, 07 May 2016 00:20:35 GMT
+Server: Apache
+X-Drupal-Cache: HIT
+Etag: "1462579080-0"
+Content-Language: en
+Link: </node/87>; rel="shortlink",</communities/sanikiluaq/hunters/index.html>; rel="canonical"
+X-Generator: Drupal 7 (http://drupal.org)
+Cache-Control: public, max-age=0
+Last-Modified: Fri, 06 May 2016 23:58:00 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Keep-Alive: timeout=3, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+
+1498
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://eloka-arctic.org/sites/eloka-arctic.org/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="shortlink" href="/node/87" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/communities/sanikiluaq/hunters/index.html" />
+<meta name="MobileOptimized" content="width" />
+  <title>Hunters in Sanikiluaq | eloka-arctic.org</title>  
+  <style type="text/css" media="all">
+@import url("http://eloka-arctic.org/modules/system/system.base.css?o6ci2c");
+@import url("http://eloka-arctic.org/modules/system/system.menus.css?o6ci2c");
+</style>
+<style type="text/css" media="all">
+@import url("http://eloka-arctic.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?o6ci2c");
+@import url("http://eloka-arctic.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?o6ci2c");
+</style>
+<style type="text/css" media="all">
+@import url("http://eloka-arctic.org/sites/all/modules/date/date_api/date.css?o6ci2c");
+@import url("http://eloka-arctic.org/sites/all/modules/caption_filter/caption-filter.css?o6ci2c");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" media="all" />
+<style type="text/css" media="all">
+@import url("http://eloka-arctic.org/sites/all/modules/qtip/css/qtip.css?o6ci2c");
+@import url("http://eloka-arctic.org/sites/all/themes/eloka/ds_layouts/eloka_ds/eloka_ds.css?o6ci2c");
+</style>
+<style type="text/css" media="all">
+@import url("http://eloka-arctic.org/sites/all/themes/eloka/style.css?o6ci2c");
+@import url("http://eloka-arctic.org/sites/all/themes/eloka/color/colors.css?o6ci2c");
+</style>
+<style type="text/css" media="all and (min-width: 1100px)">
+@import url("http://eloka-arctic.org/sites/all/themes/eloka/css/1100.css?o6ci2c");
+</style>
+<style type="text/css" media="all and (min-width: 980px) and (max-width: 1100px)">
+@import url("http://eloka-arctic.org/sites/all/themes/eloka/css/960.css?o6ci2c");
+</style>
+<style type="text/css" media="all and (min-width: 760px) and (max-width: 980px)">
+@import url("http://eloka-arctic.org/sites/all/themes/eloka/css/720.css?o6ci2c");
+</style>
+<style type="text/css" media="all and (max-width: 760px)">
+@import url("http://eloka-arctic.org/sites/all/themes/eloka/css/mobile.css?o6ci2c");
+</style>
+
+<!--[if (lte IE 8)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://eloka-arctic.org/sites/all/themes/eloka/css/basic-layout.css?o6ci2c" media="all" />
+<![endif]-->
+
+<!--[if (lte IE 8)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://eloka-arctic.org/sites/all/themes/eloka/css/ie.css?o6ci2c" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("http://eloka-arctic.org/sites/eloka-arctic.org/files/cpn/block-1.css?o6ci2c");
+</style>
+  
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://eloka-arctic.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://eloka-arctic.org/misc/drupal.js?o6ci2c"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://eloka-arctic.org/sites/all/modules/caption_filter/js/caption-filter.js?o6ci2c"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="http://eloka-arctic.org/sites/all/modules/qtip/js/qtip.js?o6ci2c"></script>
+<script type="text/javascript" src="http://eloka-arctic.org/sites/all/themes/eloka/js/eloka-main-nav.js?o6ci2c"></script>
+<script type="text/javascript" src="http://eloka-arctic.org/sites/all/themes/eloka/js/background_rotate.js?o6ci2c"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"eloka","theme_token":"y1L6PiabdUKlXLwFCsb9Kp4N2cFKoDzi0u
+b68
+7eE6XguPs","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/caption_filter\/js\/caption-filter.js":1,"\/\/cdn.jsdelivr.net\/qtip2\/2.2.1\/jquery.qtip.min.js":1,"sites\/all\/modules\/qtip\/js\/qtip.js":1,"sites\/all\/themes\/eloka\/js\/eloka-main-nav.js":1,"sites\/all\/themes\/eloka\/js\/background_rotate.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/caption_filter\/caption-filter.css":1,"\/\/cdn.jsdelivr.net\/qtip2\/2.2.1\/jquery.qtip.min.css":1,"sites\/all\/modules\/qtip\/css\/qtip.css":1,"sites\/all\/themes\/eloka\/ds_layouts\/eloka_ds\/eloka_ds.css":1,"sites\/all\/themes\/eloka\/style.css":1,"sites\/all\/themes\/eloka\/color\/colors.css":1,"sites\/all\/themes\/eloka\/css\/1100.css":1,"sites\/all\/themes\/eloka\/css\/960.css":1,"sites\/all\/themes\/eloka\/css\/720.css":1,"sites\/all\/themes\/eloka\/css\/mobile.css":1,"sites\/all\/themes\/eloka\/css\/basic-layout.css":1,"sites\/all\/themes\/eloka\/css\/ie.css":1,"public:\/\/cpn\/block-1.css":1}},"instances":"{\u0022qtip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:6,\u0022height\u0022:6,\u0022border\u0022:0,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-light qtip-shadow\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022bottom right\u0022,\u0022adjust\u0022:{\u0022method\u0022:\u0022\u0022},\u0022my\u0022:\u0022top left\u0022,\u0022viewport\u0022:false},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter \u0022},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022}}}","qtipDebug":"{\u0022leaveElement\u0022:0}"});
+//--><!]]>
+</script>
+	<script type="text/javascript">
+	function clearText(thefield){
+if (thefield.defaultValue==thefield.value)
+thefield.value = ""
+}
+	
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1996140-2");
+pageTracker._trackPageview();
+} catch(err) {}
+</script> 
+<meta name="google-site-verification" content="E7xgI2ezj3QIcyZ4FcqTwRDHwSs9mD19FgRpwSxHr0Y" />
+
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-87 node-type-page i18n-en" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+      <div id="wrapper">
+  <div id="header">
+
+1680
+      <div class="region region-header">
+    <div id="block-block-1" class="block block-block">
+
+<div id="eloka-banner-right">
+<div id="facebook-button"><a href="https://www.facebook.com/ELOKArctic/info"><img alt="Facebook" src="/sites/eloka-arctic.org/files/images/facebook16x16.png" /></a></div>
+ 
+
+<div id="eloka-banner-search">
+<form action="http://www.google.com/custom" method="get">
+<fieldset><input class="SmallTextGray" id="searchbox" maxlength="255" name="q" onfocus="clearText(this)" size="26" type="text" value="Google Site Search" /><input name="sa" type="submit" value="Search" /><input name="cof" type="hidden" value="S:http://eloka-arctic.org;AH:left;LH:56;L:http://eloka-arctic.org/images/eloka_logo.jpg;LW:76;AWFID:15027985;" /><input name="domains" type="hidden" value="eloka-arctic.org" /><input checked="checked" name="sitesearch" type="hidden" value="eloka-arctic.org" /></fieldset></form>
+</div>
+</div>
+
+<div id="eloka-banner-left">
+<div id="eloka-logo"><img alt="" src="/sites/eloka-arctic.org/files/images/eloka_logo.png" /></div>
+</div>
+
+</div>  </div>
+	</div>
+    <div id="navigation" class="clearfix">
+              <div class="region region-navigation">
+    <div id="block-system-main-menu" class="block block-system block-menu">
+
+<ul class="menu"><li class="first leaf"><a href="/index.html" title="Home">Home</a></li>
+<li class="expanded"><a href="/about" title="About ELOKA">About ELOKA</a><ul class="menu"><li class="first last leaf"><a href="/about/manual/index.html">ELOKA Manual</a></li>
+</ul></li>
+<li class="leaf"><a href="/dataproducts" title="Data Products">Data Products</a></li>
+<li class="leaf"><a href="/projects" title="Projects">Projects</a></li>
+<li class="leaf"><a href="/partners" title="Partners">Partners</a></li>
+<li class="last expanded"><a href="/outreach" title="">Outreach</a><ul class="menu"><li class="first leaf"><a href="/content/News-and-Events" title="News and Events">News and Events</a></li>
+<li class="collapsed"><a href="/news/eloka_workshop.html">ELOKA Workshop</a></li>
+<li class="last leaf"><a href="/news/EAC_meeting.html" title="EAC Meetings">EAC Meetings</a></li>
+</ul></li>
+</ul>
+</div>  </div>
+    	</div>
+<div id="banner">
+	</div><!-- EOF: #banner -->
+<!-- #content -->
+<div id="content">
+	<!-- #content-inside -->
+    <div id="content-inside" class="container_16 clearfix">
+    
+                <!-- #sidebar-first -->
+        <div id="sidebar-first" class="grid_3">
+        	  <div class="region region-sidebar-first">
+    <div id="block-menu-menu-sanikiluaq-menu" class="block block-menu">
+
+<ul class="menu"><li class="first leaf"><a href="/communities/sanikiluaq/index.html" title="">Sanikiluaq Home</a></li>
+<li class="leaf"><a href="/communities/sanikiluaq/seaice_project.html" title="">Sanikiluaq Sea Ice Project</a></li>
+<li class="last expanded active-trail"><a href="/communities/sanikiluaq/hunters/index.html" title="" class="active-trail active">Hunters in Sanikiluaq</a><ul class="menu"><li class="first leaf"><a href="/communities/sanikiluaq/hunters/johnassie_ippak.html" title="">   Johnassie Ippak</a></li>
+<li class="leaf"><a href="/communities/sanikiluaq/hunters/lucassie_takatak.html" title="">Lucassie Takatak</a></li>
+<li class="last leaf"><a href="/communities/sanikiluaq/hunters/peter_kattuk.html" title="">   Peter Kattuk</a></li>
+</ul></li>
+</ul>
+</div>  </div>
+        </div><!-- EOF: #sidebar-first -->
+                
+                <div id="main" class="grid_13">
+                        		            
+                        
+                   
+                 
+                        
+                        
+			                        <h1>Hunters in Sanikiluaq</h1>
+                                    
+                        
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+<div  about="/communities/sanikiluaq/hunters/index.html" typeof="foaf:Document" class="eloka-sidebar-layout node node-page view-mode-full group-one-column clearfix">
+
+  
+      <div class="group-left grid_9 ">
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>The hunters of Sanikiluaq play a vital role in the cultural traditions of the local people, providing food for their families and for the community.</p>
+
+<p><img alt="Johnassie Ippak" class="sanikiluaq_photo" src="/sites/eloka-arctic.org/files/images/Ippak_photo.jpg" width="150" /></p>
+
+<h2>Johnassie Ippak</h2>
+
+<p><a href="/communities/sanikiluaq/hunters/johnassie_ippak.html" title="Learn more about Sanikiluaq hunter Johnassie Ippak">Johnassie Ippak</a> is the first generation of hunters in the Belcher Islands to grow up and go to school in Sanikiluaq and continue the Inuit hunting tradition. Johnassie provides for his family and community from the sea and land. He originally learned from his father where to hunt in the islands, but in recent years he has had to change his travel routes and learn about new places because of the changing sea ice and weather conditions. Johnassie is a respected guide and experienced assistant to western scientific researchers. Projects to which he has contributed his know-how and experience of the Belcher Islands and wildlife include the following:</p>
+
+<ul><li><a href="http://www.arcticeider.com/research/" title="Winter ecology studies of the Hudson Bay eider duck">Winter ecology studies of the Hudson Bay eider duck</a> led by Dr. Grant Gilchrist at the Canadian Wildlife Service</li>
+	<li>ArcticNet sea ice monitoring project led by Dr. David Barber at the University of Manitoba</li>
+	<li><em><a href="http://www.peopleofafeather
+980
+.com/" title="People of a Feather">People of a Feather</a></em> film project led by Dr. Joel Heath and the community of Sanikiluaq</li>
+	<li><a href="http://www.umanitoba.ca/science/zoology/faculty/ferguson/belchers/index.html" title="Ecology of Ringed Seals in Hudson Bay and Foxe Basin">Ecology of Ringed Seals in Hudson Bay and Foxe Basin</a> project led by Dr. Steve Ferguson at Fisheries and Oceans Canada, Freshwater Institute</li>
+</ul><p><iframe allowfullscreen="" frameborder="0" height="287" src="//www.youtube.com/v/t5-d7RmMG30?version=3&amp;hl=en_US&amp;rel=0" width="510"></iframe></p>
+
+<p>Hunter Johnassie Ippak shared his sea ice observations as part of the Sanikiluaq Sea Ice Project. Photo and video credit: Miriam Fleming. <a href="/communities/sanikiluaq/hunters/johnassie_ippak.html" title="Learn more about Sanikiluaq hunter Johnassie Ippak">Learn more about Johnassie Ippak and watch the full-length interview.</a></p>
+
+<p><img alt="Lucassie Takatak" class="sanikiluaq_photo" src="/sites/eloka-arctic.org/files/images/Takatak_photo.jpg" width="150" /></p>
+
+<h2>Lucassie Takatak</h2>
+
+<p><a href="/communities/sanikiluaq/hunters/lucassie_takatak.html" title="Learn more about Sanikiluaq hunter Lucassi Takatak">Lucassie Takatak</a> is a full-time community hunter in Sanikiluaq. He was born and grew up in the north Belcher Islands. Almost every day except Sunday, as the weather and his equipment permit, Lucassie goes out to bring food back from the sea and/ or land for the people of Sanikiluaq to eat. He has three freezers and a small freezer in the refrigerator in which he stores food if any is left over from his hunts. Sometimes, the community's need is so great that there is no food left for Lucassie when he comes in from a hunt. The freezers are empty several times a year: in late fall when the sea is windy, in midwinter when there are snowstorms, and early spring. Lucassie feeds the community because his older brother, on his deathbed, told him to distribute among the community food he receives from his hunts. Two generations of young hunters have grown up in Sanikiluaq learning with Lucassie.</p>
+
+<p><iframe allowfullscreen="" frameborder="0" height="287" src="//www.youtube.com/v/zqojhm6GsCY?hl=en_US&amp;version=3&amp;rel=0" width="510"></iframe></p>
+
+<p>Hunter Lucassie Takatak shared his sea ice observations as part of the Sanikiluaq Sea Ice Project. Photo and video credit: Miriam F
+c0a
+leming. <a href="/communities/sanikiluaq/hunters/lucassie_takatak.html" title="Learn more about Sanikiluaq hunter Lucassi Takatak">Learn more about Lucassie Takatak and watch the full-length interview.</a></p>
+
+<p><img alt="Peter Kattuk" class="sanikiluaq_photo" src="/sites/eloka-arctic.org/files/images/Kattuk_photo.jpg" width="150" /></p>
+
+<h2>Peter Kattuk</h2>
+
+<p><a href="/communities/sanikiluaq/hunters/peter_kattuk.html" title="Learn more about Sanikiluaq hunter Peter Kattuk">Peter Kattuk</a> is a senior hunter in the Belcher Islands. He was born and grew up with his family on the Belcher Islands. Peter attended the Ft. Churchill Vocational Centre in Manitoba, and moved to the community of Sanikiluaq in about 1970 when it was established. As mayor in 1991, he invited fellow mayors from Inuit communities and chiefs from Cree communities to the first community-led workshop on Hudson Bay and James Bay. It was an historical event that led to documentation on what is happening and changing in the Hudson Bay Inland Sea on the basis of the knowledge and experience of Aboriginal Elders, hunters, trappers, and processors.</p>
+
+<p>Peter is respected by many for his knowledge on sea ice, his concerns for the environment and his public service in the Legislative Assembly of Nunavut. As a hunter, Peter has been sharing his knowledge and observing changing conditions in the Belcher Islands environment and marine life since 1989. He likes to share what he knows with the Exchange for Local Observations and Knowledge of the Arctic (ELOKA) Sanikiluaq project for the benefit of the younger people who are growing up in a very different world.</p>
+
+<p><iframe allowfullscreen="" frameborder="0" height="287" src="//www.youtube.com/v/gYFziDDpp0g?version=3&amp;hl=en_US&amp;rel=0" width="510"></iframe></p>
+
+<p>Hunter Peter Kattuk shared his sea ice observations as part of the Sanikiluaq Sea Ice Project. Photo credit: Chris McNeave; video credit: Miriam Fleming. <a href="/communities/sanikiluaq/hunters/peter_kattuk.html" title="Learn more about Sanikiluaq hunter Peter Kattuk">Learn more about Peter Kattuk and watch the full-length interview.</a></p>
+</div></div></div>    </div>
+  
+  
+</div>
+
+
+</div>  </div>
+            
+                        
+        </div><!-- EOF: #main -->
+        
+          
+
+    </div><!-- EOF: #content-inside -->
+
+</div><!-- EOF: #content -->
+
+  </div><!-- EOF: wrapper -->
+  <!-- #footer -->    
+<div id="footer">
+	<!-- #footer-inside -->
+    <div id="footer-inside" class="container_16 clearfix">
+    
+          <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+
+<p id="footer-text"><a href="http://nsidc.org"><img alt="NSIDC logo" src="/sites/eloka-arctic.org/files/images/logo_nsidc_46x36.gif" /></a>ELOKA is a collaborative international effort; the Web site is hosted by the National Snow and Ice Data Center. Contact: eloka@nsidc.org</p>
+
+</div>  </div>
+       
+    </div><!-- EOF: #footer-inside -->
+
+</div><!-- EOF: #footer --> 
+   
+
+</body>
+</html>
+
+0
+
+
+
+WARC/1.0
+WARC-Type: metadata
+WARC-Record-ID: <urn:uuid:9f66a505-43d3-4b79-b4e4-1d065b00740e>
+WARC-Warcinfo-ID: <urn:uuid:2ce02d99-ab42-43a4-95e4-0b361c056318>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/MANIFEST.txt
+WARC-Date: 2016-05-07T00:20:37Z
+WARC-Block-Digest: sha1:XEBW6EREDSSAOPOUNHUEHKSYNWXG7LLH
+Content-Type: text/plain
+Content-Length: 48
+
+<urn:uuid:2ce02d99-ab42-43a4-95e4-0b361c056318>
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:921168b4-75b2-40c4-ba1b-34ca45aa3c72>
+WARC-Warcinfo-ID: <urn:uuid:2ce02d99-ab42-43a4-95e4-0b361c056318>
+WARC-Concurrent-To: <urn:uuid:9f66a505-43d3-4b79-b4e4-1d065b00740e>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget_arguments.txt
+WARC-Date: 2016-05-07T00:20:37Z
+WARC-Block-Digest: sha1:HATCWFOYN7XPGUP7UTI3BHWLFYKDWDKY
+Content-Type: text/plain
+Content-Length: 119
+
+"http://eloka-arctic.org/communities/sanikiluaq/hunters/index.html" "--warc-file=San_hunters" "--no-warc-compression" 
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:70000e4d-c8f6-4694-ae78-b367216e47f9>
+WARC-Warcinfo-ID: <urn:uuid:2ce02d99-ab42-43a4-95e4-0b361c056318>
+WARC-Concurrent-To: <urn:uuid:9f66a505-43d3-4b79-b4e4-1d065b00740e>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget.log
+WARC-Date: 2016-05-07T00:20:37Z
+WARC-Block-Digest: sha1:IYVY5IC55GYXY6OU3DGSOYY72VFANZKQ
+Content-Type: text/plain
+Content-Length: 534
+
+Opening WARC file ‘San_hunters.warc’.
+
+--2016-05-06 20:20:37--  http://eloka-arctic.org/communities/sanikiluaq/hunters/index.html
+Resolving eloka-arctic.org (eloka-arctic.org)... 128.138.135.43
+Connecting to eloka-arctic.org (eloka-arctic.org)|128.138.135.43|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html.1’
+
+     0K .......... .........                                    200K=0.09s
+
+2016-05-06 20:20:37 (200 KB/s) - ‘index.html.1’ saved [19466]
+
+
+
